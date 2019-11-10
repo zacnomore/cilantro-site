@@ -102,12 +102,20 @@
         </div>
       </div>
     </section>
+    <footer class="full">
+      <p>
+        Cilantro is more than a delicious herb. It is more than a fast, casual restaurant in Manchester VT. It is so much more than the hard work and commitment we put into the restaurant every day. To us, and hopefully to all our loyal customers, Cilantro is a step. It is a step towards a promise that we will continue to be sustainable, local and committed to improving the prosperity of our wonderful town. We are local. Locally focused in the ingredients we use, locally focused in the charities we support, and locally focused in the people we serve. Together we promise to support the town and area that we are so humbly supported by. We also promise to do so in a manner that is kind to this sweet, sweet earth. With your help and our commitment, together we will all prosper.
+      </p>
+      <LogoIcon/>
+    </footer>
   </Layout>
 </template>
 
 <script>
-
+import { LogoIcon } from "~/components/LogoIcon";
+import { CilantroIcon } from "~/components/CilantroIcon";
 export default {
+  components: [],
   metaInfo: {
     title: 'Cilantro'
   }
@@ -120,12 +128,12 @@ export default {
   width: 100%;
   position: relative;
 
-  headerW {
+  header {
     position: absolute;
   }
 
   img {
-    position: fixed;
+    position: absolute;
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -154,7 +162,7 @@ header.band {
     flex-grow: 1;
 
     img {
-      max-width: 100%;
+      width: 100%;
       display: block;
       height: 100%;
       object-fit: cover;
@@ -205,5 +213,9 @@ header.band {
 
 footer {
   background: black;
+
+  p {
+    line-height: 200%;
+  }
 }
 </style>
