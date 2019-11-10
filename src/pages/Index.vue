@@ -197,5 +197,13 @@ header.band {
     flex-basis: 25%;
     min-width: 250px;
   }
+
+  &.thirds {
+    flex-direction: column;
+  }
+}
+
+footer {
+  background: black;
 }
 </style>

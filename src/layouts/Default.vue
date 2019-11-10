@@ -4,14 +4,6 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <style>
 
 h1, h2, h3, header {
@@ -21,7 +13,7 @@ h1, h2, h3, header {
 
 html, body {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 18pt;
+  font-size: 18px;
   color: white;
 }
 
