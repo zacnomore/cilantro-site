@@ -7,6 +7,7 @@
         <p>Local. Sustainable. Authentic.</p>
       </header>
     </section>
+
     <header class="band">Step One</header>
     <section class="grid thirds">
       <div class="tile">
@@ -102,6 +103,33 @@
         </div>
       </div>
     </section>
+
+
+    <header class="band">Step Three</header>
+    <section class="grid thirds vertical">
+      <div class="tile">
+        <g-image alt="" src="~/assets/Extras.jpg" />
+        <div class="text">
+          <h2>Extras</h2>
+        </div>
+      </div>
+      <div class="tile">
+        <g-image alt="" src="~/assets/Salsa.jpg" />
+        <div  class="text">
+          <h2>Corn Chips and Salsa</h2>
+        </div>
+      </div>
+      <div class="tile">
+        <g-image alt="" src="~/assets/Beverages.jpg" />
+        <div  class="text">
+          <h2>Beverages</h2>
+          <ul>
+            <li></li>
+          </ul>  
+        </div>
+      </div>
+    </section>
+  
     <footer class="full">
       <p>
         Cilantro is more than a delicious herb. It is more than a fast, casual restaurant in Manchester VT. It is so much more than the hard work and commitment we put into the restaurant every day. To us, and hopefully to all our loyal customers, Cilantro is a step. It is a step towards a promise that we will continue to be sustainable, local and committed to improving the prosperity of our wonderful town. We are local. Locally focused in the ingredients we use, locally focused in the charities we support, and locally focused in the people we serve. Together we promise to support the town and area that we are so humbly supported by. We also promise to do so in a manner that is kind to this sweet, sweet earth. With your help and our commitment, together we will all prosper.
@@ -112,10 +140,14 @@
 </template>
 
 <script>
-import { LogoIcon } from "~/components/LogoIcon";
-import { CilantroIcon } from "~/components/CilantroIcon";
+import LogoIcon from "~/components/LogoIcon";
+import CilantroIcon from "~/components/CilantroIcon";
+
 export default {
-  components: [],
+  components: {
+    LogoIcon, 
+    CilantroIcon
+  },
   metaInfo: {
     title: 'Cilantro'
   }
@@ -206,7 +238,7 @@ header.band {
     min-width: 250px;
   }
 
-  &.thirds {
+  &.vertical {
     flex-direction: column;
   }
 }
