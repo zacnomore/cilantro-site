@@ -3,7 +3,10 @@
     <section class="full hero">
       <g-image alt="An illustration of a sugar skull, a painted skull in celebration of Día de los Muertos" src="~/assets/SugarSkull.jpg" />
       <header>
-        <h1>Mexican Street Food</h1>
+        <h1>
+          
+          Mexican Street Food
+        </h1>
         <p>Local. Sustainable. Authentic.</p>
       </header>
     </section>
@@ -111,21 +114,37 @@
         <g-image alt="" src="~/assets/Extras.jpg" />
         <div class="text">
           <h2>Extras</h2>
+          <ul class="two-col">
+            <li>Pickled Onions</li>
+            <li>Sliced Jalapeño</li>
+            <li>Roasted Corn</li>
+            <li>Roasted Mushrooms</li>
+            <li>Extra Cheese</li>
+            <li>Sliced Avocado</li>
+            <li>Extra Meat</li>
+          </ul>
         </div>
       </div>
       <div class="tile">
         <g-image alt="" src="~/assets/Salsa.jpg" />
         <div  class="text">
           <h2>Corn Chips and Salsa</h2>
+          <p>Corn chips with your choice of house made salsa</p>
         </div>
       </div>
       <div class="tile">
         <g-image alt="" src="~/assets/Beverages.jpg" />
         <div  class="text">
           <h2>Beverages</h2>
-          <ul>
-            <li></li>
-          </ul>  
+          <ul class="two-col">
+            <li>Fresh brewed iced tea</li>
+            <li>House made limeade</li>
+            <li>Select beer</li>
+            <li>Wine</li>
+            <li>Soda</li>
+            <li>Water</li>
+            <li>Seltzer</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -156,7 +175,7 @@ export default {
 
 <style lang="scss" scoped>
 .full {    
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
 
@@ -224,6 +243,12 @@ header.band {
       list-style: none;
       margin: 0;
       padding: 0;
+
+      &.two-col{
+        max-height: 8em;
+        column-count: 2;
+        max-width: 600px;
+      }
     }
   }
 
@@ -245,9 +270,28 @@ header.band {
 
 footer {
   background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 
   p {
-    line-height: 200%;
+    line-height: 250%;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    
+    @media screen and (max-width: 800px){
+      line-height: 150%;
+    }
+  }
+
+  svg {
+    position: absolute;
+    width: 150px;
+    bottom: 50px;
   }
 }
 </style>

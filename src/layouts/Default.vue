@@ -13,8 +13,12 @@ h1, h2, h3, header {
 
 html, body {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   color: white;
+}
+
+p, li {
+  line-height: 24px;
 }
 
 </style>
