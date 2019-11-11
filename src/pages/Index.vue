@@ -64,50 +64,54 @@
       Step Two
     </header>
     <section class="grid quarters">
-      <div class="tile">
-        <g-image alt="" src="~/assets/Meat.jpg" />
-        <div class="text">
-          <h2>Burrito</h2>
-          <ul>
-            <li>Chicken</li>
-            <li>Pork</li>
-            <li>Fresh chorizo</li>
-            <li>Beef</li>
-          </ul>
+      <div class="grid halves">
+        <div class="tile">
+          <g-image alt="" src="~/assets/Meat.jpg" />
+          <div class="text">
+            <h2>Meat</h2>
+            <ul>
+              <li>Chicken</li>
+              <li>Pork</li>
+              <li>Fresh chorizo</li>
+              <li>Beef</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tile">
+          <g-image alt="" src="~/assets/Veggie.jpg" />
+          <div  class="text">
+            <h2>Veggie</h2>
+            <ul>
+              <li>Roasted mushroom</li>
+              <li>Roasted corn</li>
+              <li>Sliced avocado</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Veggie.jpg" />
-        <div  class="text">
-          <h2>Veggie</h2>
-          <ul>
-            <li>Roasted mushroom</li>
-            <li>Roasted corn</li>
-            <li>Sliced avocado</li>
-          </ul>
+      <div class="grid halves">
+        <div class="tile">
+          <g-image alt="" src="~/assets/Salsa.jpg" />
+          <div  class="text">
+            <h2>Salad</h2>
+            <ul>
+              <li>Fire roasted tomato (mild)</li>
+              <li>Corn and black bean (medium)</li>
+              <li>Tomatillo jalapeño (medium)</li>
+              <li>Adobo sauce (medium)</li>
+              <li>Tomato habañero (hot)</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Salsa.jpg" />
-        <div  class="text">
-          <h2>Salad</h2>
-          <ul>
-            <li>Fire roasted tomato (mild)</li>
-            <li>Corn and black bean (medium)</li>
-            <li>Tomatillo jalapeño (medium)</li>
-            <li>Adobo sauce (medium)</li>
-            <li>Tomato habañero (hot)</li>
-          </ul>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Cheese.jpg" />
-        <div  class="text">
-          <h2>Cheese</h2>
-          <ul>
-            <li>House queso fresco</li>
-            <li>Monterey jack</li>
-          </ul>
+        <div class="tile">
+          <g-image alt="" src="~/assets/Cheese.jpg" />
+          <div  class="text">
+            <h2>Cheese</h2>
+            <ul>
+              <li>House queso fresco</li>
+              <li>Monterey jack</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -270,14 +274,25 @@ header.band {
     }
   }
 
+  &.quarters > * {
+    flex-basis: 50%;
+    min-width: 250px;
+    flex-direction: column;
+    flex-grow: 1;
+
+    @media screen and (min-width: 1000px) {
+      flex-direction: row;
+    }
+  }
+
   &.thirds .tile{
     flex-basis: 33.33%;
     min-width: 350px;
   }
 
 
-  &.quarters .tile{
-    flex-basis: 25%;
+  &.halves > * {
+    flex-basis: 50%;
     min-width: 250px;
   }
 
