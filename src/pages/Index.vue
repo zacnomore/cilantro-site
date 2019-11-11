@@ -8,6 +8,15 @@
         </h1>
         <p>Local. Sustainable. Authentic.</p>
       </header>
+      <aside>
+        <LogoIcon/>
+        <address>5036 Main St, Machester Center, VT 05255</address>
+        
+        <div class="hours">
+          <p>Every Day</p>
+          <time datetime="11:30">11:30 AM</time> - <time datetime="20:00">8:00 PM</time>
+        </div>
+      </aside>
     </section>
 
     <header class="band">
@@ -186,6 +195,51 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.hero {
+  
+  h1 {
+    font-size: 80px;
+    margin: 30px;
+
+    + p {
+      line-height: 100%;
+      font-size: 40px;
+      margin: 0 30px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    h1 {
+      font-size: 120px;
+      margin: 30px;
+
+      + p {
+        font-size: 60px;
+        margin: 0 30px;
+      }
+    }
+  }
+
+  aside {
+    background: black;
+    padding: 20px;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 200px;
+
+    address {
+      padding: 10px 0;
+    }
+
+
+    .hours p {
+      margin: 0;
+    }
+  }
+}
+
+
 .full {    
   min-height: 100vh;
   width: 100%;

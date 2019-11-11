@@ -18,7 +18,7 @@ html, body {
 }
 
 p, li {
-  line-height: 24px;
+  line-height: 180%;
 }
 
 </style>
