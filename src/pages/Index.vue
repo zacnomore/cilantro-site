@@ -4,14 +4,16 @@
       <g-image alt="An illustration of a sugar skull, a painted skull in celebration of Día de los Muertos" src="~/assets/SugarSkull.jpg" />
       <header>
         <h1>
-          
           Mexican Street Food
         </h1>
         <p>Local. Sustainable. Authentic.</p>
       </header>
     </section>
 
-    <header class="band">Step One</header>
+    <header class="band">
+      <CilantroIcon/>
+      Step One
+    </header>
     <section class="grid thirds">
       <div class="tile">
         <g-image alt="" src="~/assets/Burrito.jpg" />
@@ -57,7 +59,10 @@
       </div>
     </section>
 
-    <header class="band">Step Two</header>
+    <header class="band">
+      <CilantroIcon/>
+      Step Two
+    </header>
     <section class="grid quarters">
       <div class="tile">
         <g-image alt="" src="~/assets/Meat.jpg" />
@@ -108,7 +113,10 @@
     </section>
 
 
-    <header class="band">Step Three</header>
+    <header class="band">
+      <CilantroIcon/>
+      Step Three
+    </header>
     <section class="grid thirds vertical">
       <div class="tile">
         <g-image alt="" src="~/assets/Extras.jpg" />
@@ -199,6 +207,16 @@ img {
 
 header.band {
   background: rgb(80, 181, 85);
+  color: black;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  height: 30px;
+  padding: 4px;
+
+  > * {
+    padding-right: 4px;
+  }
 }
 
 .grid {
