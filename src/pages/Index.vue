@@ -189,7 +189,7 @@ export default {
     CilantroIcon
   },
   metaInfo: {
-    title: 'Cilantro'
+    title: 'Home'
   }
 }
 </script>
@@ -222,11 +222,12 @@ export default {
 
   aside {
     background: black;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     bottom: 10%;
     text-align: center;
     width: 200px;
+
 
     address {
       padding: 10px 0;
@@ -235,6 +236,18 @@ export default {
 
     .hours p {
       margin: 0;
+    }
+
+    svg { 
+      width: 100px;
+    }
+
+    @media screen and (min-width: 800px) {
+      padding: 10px;
+
+      svg { 
+        width: auto;
+      }
     }
   }
 }
@@ -302,7 +315,7 @@ header.band {
     }
 
     .text {
-      margin: 20px;
+      margin: 40px 20px;
     }
 
     h2 {
@@ -340,7 +353,7 @@ header.band {
   }
 
   &.thirds .tile{
-    flex-basis: 33.33%;
+    flex-basis: 0;
     min-width: 350px;
   }
 

@@ -8,7 +8,6 @@
 
 h1, h2, h3, header {
   font-family: 'Amatic SC', cursive;
-  text-transform: uppercase;
 }
 
 html, body {
