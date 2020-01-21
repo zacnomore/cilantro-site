@@ -21,7 +21,7 @@
 
     <header class="band">
       <CilantroIcon/>
-      Step One
+      Step One - Choose One
     </header>
     <section class="grid thirds">
       <div class="tile">
@@ -70,7 +70,7 @@
 
     <header class="band">
       <CilantroIcon/>
-      Step Two
+      Step Two - The Goods
     </header>
     <section class="grid quarters">
       <div class="grid halves">
@@ -102,7 +102,7 @@
         <div class="tile">
           <g-image alt="" src="~/assets/Salsa.jpg" />
           <div  class="text">
-            <h2>Salad</h2>
+            <h2>Salsa</h2>
             <ul>
               <li>Fire roasted tomato (mild)</li>
               <li>Corn and black bean (medium)</li>
@@ -128,7 +128,7 @@
 
     <header class="band">
       <CilantroIcon/>
-      Step Three
+      Step Three - Something Extra
     </header>
     <section class="grid thirds vertical">
       <div class="tile">
@@ -280,13 +280,13 @@ header.band {
   background: rgb(80, 181, 85);
   color: black;
   display: flex;
-  font-size: 20px;
+  font-size: 26px;
   align-items: center;
-  height: 30px;
-  padding: 4px;
+  height: 40px;
+  padding: 4px 4px 4px 20px;
 
   > * {
-    padding-right: 4px;
+    padding-right: 8px;
   }
 }
 
