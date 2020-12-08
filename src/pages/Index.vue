@@ -26,7 +26,7 @@
         Cilantro is more than a delicious herb. It is more than a fast, casual restaurant in Manchester VT. It is so much more than the hard work and commitment we put into the restaurant every day. To us, and hopefully to all our loyal customers, Cilantro is a step. It is a step towards a promise that we will continue to be sustainable, local and committed to improving the prosperity of our wonderful town. We are local. Locally focused in the ingredients we use, locally focused in the charities we support, and locally focused in the people we serve. Together we promise to support the town and area that we are so humbly supported by. We also promise to do so in a manner that is kind to this sweet, sweet earth. With your help and our commitment, together we will all prosper.
       </p>
 
-        <Menu/>
+      <Menu/>
       <LogoIcon/>
     </footer>
   </Layout>
@@ -143,11 +143,18 @@ footer {
     line-height: 250%;
     width: 80%;
     text-align: center;
-    padding-bottom: 150px;
-    padding-top: 50px;
     
     @media screen and (max-width: 800px){
       line-height: 150%;
+    }
+
+    @media screen and (min-width: 800px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    + a {
+      padding-bottom: 50px;
     }
   }
 
@@ -155,6 +162,11 @@ footer {
     position: absolute;
     width: 150px;
     bottom: 50px;
+
+    @media screen and (min-width: 800px) {
+      width: 150px;
+      padding-bottom: 50px;
+    }
   }
 }
 </style>
