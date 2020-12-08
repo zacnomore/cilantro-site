@@ -16,164 +16,17 @@
           <p>Every Day</p>
           <time datetime="11:30">11:30 AM</time> - <time datetime="20:00">8:00 PM</time>
         </div>
+
+        <Menu/>
       </aside>
     </section>
 
-    <header class="band">
-      <CilantroIcon/>
-      Step One - Choose One
-    </header>
-    <section class="grid thirds">
-      <div class="tile">
-        <g-image alt="" src="~/assets/Burrito.jpg" />
-        <div class="text">
-          <h2>Burrito</h2>
-          <p>Flour tortilla rolled up with rice, beans, meat, salsa, cheese, lettuce, sour cream and house sauce</p>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/HillOfBeans.jpg" />
-        <div  class="text">
-          <h2>Hills of Beans</h2>
-          <p>Deconstructed burrito (no tortilla)</p>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Salad.jpg" />
-        <div  class="text">
-          <h2>Salad</h2>
-          <p>Chopped romaine, meat, cheese, roasted corn, black beans, pickled onions, cilantro-avocado dressing, sour cream, tosted pepitas</p>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Americano.jpg" />
-        <div  class="text">
-          <h2>Taco Americano</h2>
-          <p>Flour tortilla stuffed with meat, salsa, cheese, lettuce, sour cream and house sauce</p>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/StreetTacos.jpg" />
-        <div  class="text">
-          <h2>Street Taco</h2>
-          <p>Corn tortilla stuffed with meat, salsa, fresh chopped cilantro and onions</p>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/MealDeal.jpg" />
-        <div  class="text">
-          <h2>Taco Meal Deal</h2>
-          <p>Two tacos with a side of rice, beans and cheese</p>
-        </div>
-      </div>
-    </section>
-
-    <header class="band">
-      <CilantroIcon/>
-      Step Two - The Goods
-    </header>
-    <section class="grid quarters">
-      <div class="grid halves">
-        <div class="tile">
-          <g-image alt="" src="~/assets/Meat.jpg" />
-          <div class="text">
-            <h2>Meat</h2>
-            <ul>
-              <li>Chicken</li>
-              <li>Pork</li>
-              <li>Fresh chorizo</li>
-              <li>Beef</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tile">
-          <g-image alt="" src="~/assets/Veggie.jpg" />
-          <div  class="text">
-            <h2>Veggie</h2>
-            <ul>
-              <li>Roasted mushroom</li>
-              <li>Roasted corn</li>
-              <li>Sliced avocado</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="grid halves">
-        <div class="tile">
-          <g-image alt="" src="~/assets/Salsa.jpg" />
-          <div  class="text">
-            <h2>Salsa</h2>
-            <ul>
-              <li>Fire roasted tomato (mild)</li>
-              <li>Corn and black bean (medium)</li>
-              <li>Tomatillo jalapeño (medium)</li>
-              <li>Adobo sauce (medium)</li>
-              <li>Tomato habañero (hot)</li>
-            </ul>
-          </div>
-        </div>
-        <div class="tile">
-          <g-image alt="" src="~/assets/Cheese.jpg" />
-          <div  class="text">
-            <h2>Cheese</h2>
-            <ul>
-              <li>House queso fresco</li>
-              <li>Monterey jack</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <header class="band">
-      <CilantroIcon/>
-      Step Three - Something Extra
-    </header>
-    <section class="grid thirds vertical">
-      <div class="tile">
-        <g-image alt="" src="~/assets/Extras.jpg" />
-        <div class="text">
-          <h2>Extras</h2>
-          <ul class="two-col">
-            <li>Pickled Onions</li>
-            <li>Sliced Jalapeño</li>
-            <li>Roasted Corn</li>
-            <li>Roasted Mushrooms</li>
-            <li>Extra Cheese</li>
-            <li>Sliced Avocado</li>
-            <li>Extra Meat</li>
-          </ul>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Salsa.jpg" />
-        <div  class="text">
-          <h2>Corn Chips and Salsa</h2>
-          <p>Corn chips with your choice of house made salsa</p>
-        </div>
-      </div>
-      <div class="tile">
-        <g-image alt="" src="~/assets/Beverages.jpg" />
-        <div  class="text">
-          <h2>Beverages</h2>
-          <ul class="two-col">
-            <li>Fresh brewed iced tea</li>
-            <li>House made limeade</li>
-            <li>Select beer</li>
-            <li>Wine</li>
-            <li>Soda</li>
-            <li>Water</li>
-            <li>Seltzer</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  
     <footer class="full">
       <p>
         Cilantro is more than a delicious herb. It is more than a fast, casual restaurant in Manchester VT. It is so much more than the hard work and commitment we put into the restaurant every day. To us, and hopefully to all our loyal customers, Cilantro is a step. It is a step towards a promise that we will continue to be sustainable, local and committed to improving the prosperity of our wonderful town. We are local. Locally focused in the ingredients we use, locally focused in the charities we support, and locally focused in the people we serve. Together we promise to support the town and area that we are so humbly supported by. We also promise to do so in a manner that is kind to this sweet, sweet earth. With your help and our commitment, together we will all prosper.
       </p>
+
+        <Menu/>
       <LogoIcon/>
     </footer>
   </Layout>
@@ -182,11 +35,13 @@
 <script>
 import LogoIcon from "~/components/LogoIcon";
 import CilantroIcon from "~/components/CilantroIcon";
+import Menu from "~/components/Menu";
 
 export default {
   components: {
     LogoIcon, 
-    CilantroIcon
+    CilantroIcon,
+    Menu
   },
   metaInfo: {
     title: 'Home'
@@ -274,98 +129,6 @@ export default {
 
 img {
   filter: brightness(.35);
-}
-
-header.band {
-  background: rgb(80, 181, 85);
-  color: black;
-  display: flex;
-  font-size: 26px;
-  align-items: center;
-  height: 40px;
-  padding: 4px 4px 4px 20px;
-
-  > * {
-    padding-right: 8px;
-  }
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  min-height: 100vh;
-
-
-  .tile {
-    position: relative;
-    flex-grow: 1;
-
-    img {
-      width: 100%;
-      display: block;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-    }
-
-    .text {
-      margin: 40px 20px;
-    }
-
-    h2 {
-      margin: 0 0 40px 0;
-      font-size: 80px;
-
-      @media screen and (max-width: 800px) {
-        margin: 0 0 30px 0;
-        font-size: 60px;
-      }
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-
-      &.two-col{
-        max-height: 8em;
-        column-count: 2;
-        max-width: 600px;
-      }
-    }
-  }
-
-  &.quarters > * {
-    flex-basis: 50%;
-    min-width: 250px;
-    flex-direction: column;
-    flex-grow: 1;
-
-    @media screen and (min-width: 1000px) {
-      flex-direction: row;
-    }
-  }
-
-  &.thirds .tile{
-    flex-basis: 0;
-    min-width: 350px;
-  }
-
-
-  &.halves > * {
-    flex-basis: 50%;
-    min-width: 250px;
-  }
-
-  &.vertical {
-    flex-direction: column;
-  }
 }
 
 footer {
