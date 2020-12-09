@@ -173,8 +173,8 @@ footer {
       padding-bottom: 50px;
     }
 
-    + a {
-      padding-bottom: 50px;
+    + a {    
+      padding-bottom: 100px;
     }
   }
 
