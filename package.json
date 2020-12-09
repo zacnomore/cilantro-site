@@ -7,11 +7,12 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.13"
+    "gridsome": "^0.7.21"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.36.0"
   }
 }
