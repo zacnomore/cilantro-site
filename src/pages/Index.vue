@@ -16,10 +16,12 @@
         </div>
         
         <div class="hours">
-          <p>Monday - Saturday</p>
+          <p>Wednesday - Saturday</p>
           <time datetime="11:30">11:30 AM</time> - <time datetime="19:00">7:00 PM</time>
           <p>Sunday</p>
           <time datetime="11:30">11:30 AM</time> - <time datetime="15:00">3:00 PM</time>
+          <p>Monday, Tuesday</p>
+          <time>Closed</time>
         </div>
 
         <Menu/>
@@ -75,7 +77,6 @@ export default {
 
       + p {
         font-size: 60px;
-        margin: 0 30px;
       }
     }
   }
