@@ -10,11 +10,16 @@
       </header>
       <aside>
         <LogoIcon/>
-        <address>5036 Main St, Machester Center, VT 05255</address>
+        <div class="contact">
+          <address>5036 Main St, Machester Center, VT 05255</address>
+          <a href="tel:802-768-8141">802 768 8141</a>
+        </div>
         
         <div class="hours">
-          <p>Every Day</p>
-          <time datetime="11:30">11:30 AM</time> - <time datetime="20:00">8:00 PM</time>
+          <p>Monday - Saturday</p>
+          <time datetime="11:30">11:30 AM</time> - <time datetime="19:00">7:00 PM</time>
+          <p>Sunday</p>
+          <time datetime="11:30">11:30 AM</time> - <time datetime="15:00">3:00 PM</time>
         </div>
 
         <Menu/>
@@ -83,9 +88,12 @@ export default {
     text-align: center;
     width: 200px;
 
-
-    address {
+    .contact {
       padding: 10px 0;
+
+      a {
+        color: white;
+      }
     }
 
 
