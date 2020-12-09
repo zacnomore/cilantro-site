@@ -97,8 +97,14 @@ export default {
     }
 
 
-    .hours p {
-      margin: 0;
+    .hours {
+      p {
+        margin: 0;
+      }
+
+      time + p {
+        margin-top: 5px;
+      }
     }
 
     svg { 
