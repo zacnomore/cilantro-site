@@ -60,8 +60,8 @@ export default {
 .hero {
   
   h1 {
-    font-size: 80px;
-    margin: 30px;
+    font-size: 70px;
+    margin: 15px;
 
     + p {
       line-height: 100%;
@@ -85,9 +85,14 @@ export default {
     background: black;
     padding: 10px;
     position: absolute;
-    bottom: 10%;
     text-align: center;
-    width: 200px;
+    bottom: 5%;
+    width: 250px;
+
+    @media screen and (min-width: 400px) {
+      bottom: 10%;
+      width: 200px;
+    }
 
     .contact {
       padding: 10px 0;
