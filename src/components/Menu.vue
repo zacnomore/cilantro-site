@@ -1,5 +1,5 @@
 <template>
-  <a href="/menu.pdf" download="Cilantro_Menu">Download our Menu</a>
+  <a href="https://cilantro-106413.square.site/">Order Online</a>
 </template>
 
 <script>
