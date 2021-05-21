@@ -1,5 +1,6 @@
-# Built On Gridsome, Hosted On Zeit
+# Built On Gridsome, Hosted On Vercel
 
+Node v14.7.0
 
 ## Develop
 
@@ -9,5 +10,5 @@ Exposed at localhost:8080
 
 ## Build
 
-Deployed in Zeit with:
+Deployed in Vercel with:
 `gridsome build`
