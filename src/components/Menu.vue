@@ -1,5 +1,5 @@
 <template>
-  <a href="https://cilantro-106413.square.site/">Order Online</a>
+  <p>Now taking orders in person only</p>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-a {    
+p {    
   font-family: Amatic SC, cursive;
   color: white;
   background: black;
@@ -17,5 +17,6 @@ a {
   margin-top: 12px;
   display: block;
   font-weight: bold;
+  line-height: 1.2;
 }
 </style>
