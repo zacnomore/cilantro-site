@@ -17,7 +17,7 @@
         
         <div class="hours">
           <p>Wednesday - Saturday</p>
-          <time datetime="11:30">11:30 AM</time> - <time datetime="19:00">7:00 PM</time>
+          <time datetime="11:30">11:30 AM</time> - <time datetime="20:00">8:00 PM</time>
           <p>Sunday</p>
           <time datetime="11:30">11:30 AM</time> - <time datetime="15:00">3:00 PM</time>
           <p>Monday, Tuesday</p>
