@@ -16,11 +16,9 @@
         </div>
         
         <div class="hours">
-          <p>Wednesday - Saturday</p>
+          <p>Thursday - Sunday</p>
           <time datetime="11:30">11:30 AM</time> - <time datetime="20:00">8:00 PM</time>
-          <p>Sunday</p>
-          <time datetime="11:30">11:30 AM</time> - <time datetime="15:00">3:00 PM</time>
-          <p>Monday, Tuesday</p>
+          <p>Monday, Tuesday, Wednesday</p>
           <time>Closed</time>
         </div>
 
@@ -101,7 +99,7 @@ export default {
         color: white;
       }
     }
-
+ 
 
     .hours {
       p {
